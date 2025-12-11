@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --sand-0: #fffaf6;
+  --sand-50: #f8f3ef;
+  --sand-100: #f2e8df;
+  --sand-150: #ecdfd6;
+  --sand-200: #e2d5cb;
+  --sand-250: #d9c8bc;
+  --brown-500: #b07356;
+  --brown-600: #8c5b45;
+  --brown-700: #693f2c;
+  --brown-800: #4a2c1f;
+  --ink-900: #2d1f17;
+  --ink-700: #43342b;
+  --ink-600: #5a4b42;
+  --ink-500: #7a685e;
+  --amber-700: #c26a33;
+  --amber-800: #9c4f21;
+  --olive-600: #86b863;
+  --olive-700: #5f9b37;
+  --olive-800: #4c7a2c;
+  font-family: 'Manrope', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  color: var(--ink-900);
+  background: var(--sand-50);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at 10% 20%, rgba(176, 115, 86, 0.08), transparent 30%),
+    radial-gradient(circle at 80% 0%, rgba(105, 63, 44, 0.12), transparent 26%),
+    var(--sand-50);
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+p {
+  line-height: 1.4;
+}
